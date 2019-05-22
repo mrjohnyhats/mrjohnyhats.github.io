@@ -1,5 +1,52 @@
 #menuBox {
-	background-color: red;
-	width: 500px;
-	height: 500px;
+	background-color: #6cff00;
+	width: 100vw;
+	height: 80vh;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	display: table;
+	table-layout: fixed;	
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#menuBox td button {
+	display: inline-block;
+	width: 80%;
+	height: 80%;
+	background: #ae00ff;
+	color: white;
+	font-size: 700%;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#menuBox button:hover {
+	background-color: black;
+}
+
+#menuBox tr {
+	text-align: center;
+}
+
+.homeButton {
+	background: #ae00ff;
+	color: white;
+	width: 10vw;
+	height: 10vh;
+	border: none;
+	font-size: 280%;
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-align: center;
+	display: inline;
+}
+
+.homeButton:hover {
+	background: black;
+}
+
+p {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 150%;
+	margin: 5%;
 }
