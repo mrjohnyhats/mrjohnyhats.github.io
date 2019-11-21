@@ -1,0 +1,43 @@
+#logo {
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 40px;
+	display: block;
+	margin: 1%;
+	text-align: center;
+}
+
+.section {
+	margin: 2%;
+}
+
+h1, h2{
+	font-family: 'Archivo Black', sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	margin: 5%;
+}
+
+p {
+	font-family: 'Alata', sans-serif;
+}
+
+p.quote {
+	font-size: 40px;
+	display: block;
+	text-align: center;
+	margin: 1%;
+	margin-bottom: 2%;
+}
+
+p.quote .mla {
+	font-size: 20px;
+}
+
+img {
+	height: 30%;
+	width: 30%;
+	display: block;
+	margin: auto;
+}
