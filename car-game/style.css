@@ -54,3 +54,59 @@ body {
 	margin: 3%;
 	margin-bottom: 1%;
 }
+
+#controls td.key {
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	min-width: 5em;
+	height: 5em;
+	background-color: white;
+	color: black;
+}
+
+#controls td.key div.info {
+	font-size: 0.5em;
+}
+
+#controls > table {
+	margin: auto;
+	width: 10vw;
+	height: 10vw;
+	font-size: 300%;
+}
+
+#controls > table tbody {
+	position: relative;
+	top: 12vh;
+}
+
+#controls {
+	width: 50vw;
+	height: 50vh;
+	margin: auto;
+	margin-top: 20vh;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#controlsContainer{
+	position: absolute;
+	width: 100vw;
+	height: 50vw;
+	text-align: center;
+	margin: auto;
+}
+
+#controls > #header {
+	font-size: 400%;
+	position: relative;
+	top: 5vh;
+}
+
+#controls > #subheader {
+	font-size: 200%;
+	position: relative;
+	top: 6vh;
+}

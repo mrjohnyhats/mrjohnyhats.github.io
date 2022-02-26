@@ -11,13 +11,34 @@
 		<div id="speed" class="menuitem"></div>
 		<div id="config" class="menuitem">settings</div>
 
+		<div id="controlsContainer">
+			<div id="controls">
+				<div id="header">controls</div>
+				<div id="subheader">press any key to continue</div>
+				<table>
+					<tbody>
+						<tr>
+							<td></td>
+							<td class="key">W<div class="info">gas</div></td>
+							<td class="key">E<div class="info">E-brake<br>(lock rear wheels)</div></td>
+						</tr>
+						<tr>
+							<td class="key">A<div class="info">steer left</div></td>
+							<td class="key">S<div class="info">brake and reverse</div></td>
+							<td class="key">D<div class="info">steer right</div></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
 		<div id="debug"></div>
 
 		<div id="configWindow">
 			<div>shadow camera size</div>
 			<input type="text" id="lightSizeInput">
 			<div>shadow map size</div>
-			<input type="" id="shadowMapInput">
+			<input type="text" id="shadowMapInput">
 			<div id="apply">apply</div>
 		</div>
 
@@ -39,7 +60,10 @@
 		<script src="utils.js"></script>
 		<script src="game.js"></script>
 		<script>
-			document.addEventListener("DOMContentLoaded", function(){
+			document.addEventListener('DOMContentLoaded', function(){
+				document.addEventListener('keypress', function(){
+					document.getElementById('controlsContainer').style.visibility = 'hidden'
+				})
 				const game = new Game();
 				window.game = game;//For debugging only
 			});
