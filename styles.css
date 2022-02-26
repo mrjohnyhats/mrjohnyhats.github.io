@@ -4,7 +4,7 @@
 	height: 80vh;
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 55%;
 	transform: translateY(-50%);
 	display: table;
 	table-layout: fixed;	
@@ -19,6 +19,7 @@
 	color: white;
 	font-size: 300%;
 	font-family: 'IBM Plex Sans', sans-serif;
+	transition: ease-in-out 0.1s;
 }
 
 #menuBox button:hover {
@@ -84,4 +85,20 @@ img {
 	margin: 2%;
 	padding: 2%;
 	border: 4px dashed black;
+}
+
+#subheader {
+	font-size: 1.5vh;
+	margin: 0.2%;
+	margin-top: 0.5%;
+}
+
+#subheader a {
+	color: black;
+	transition: ease-in-out 0.1s;
+}
+
+#subheader a:hover {
+	background-color: black;
+	color: white;
 }
