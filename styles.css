@@ -17,7 +17,7 @@
 	height: 80%;
 	background: #ae00ff;
 	color: white;
-	font-size: 300%;
+	font-size: 5vmin;
 	font-family: 'IBM Plex Sans', sans-serif;
 	transition: ease-in-out 0.1s;
 }
