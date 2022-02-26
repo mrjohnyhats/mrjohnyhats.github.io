@@ -60,8 +60,8 @@ body {
 	border: 1px solid black;
 	border-radius: 10px;
 	padding: 10px;
-	min-width: 5em;
-	height: 5em;
+	min-width: 3em;
+	height: 3em;
 	background-color: white;
 	color: black;
 }
@@ -110,3 +110,5 @@ body {
 	position: relative;
 	top: 6vh;
 }
+
+
