@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>car cleaner</title>
+		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Kavivanar" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+	</head>
+
+	<body>
+		<div id="points" class="menuitem">0 points</div>
+		<div id="speed" class="menuitem"></div>
+		<div id="config" class="menuitem">settings</div>
+
+		<div id="debug"></div>
+
+		<div id="configWindow">
+			<div>shadow camera size</div>
+			<input type="text" id="lightSizeInput">
+			<div>shadow map size</div>
+			<input type="" id="shadowMapInput">
+			<div id="apply">apply</div>
+		</div>
+
+		<script src="Config.js"></script>
+		<script src="https://unpkg.com/fflate"></script>
+		<script src="https://cdn.jsdelivr.net/npm/fflate/umd/index.js"></script>
+		<script src="libs/three.min.new.js"></script>
+		<script src="libs/threeToIndexed.js"></script>
+		<script src="libs/ThreeSimplifyModifier.js"></script>
+		<script src="libs/bufferGeometryUtils.js"></script>
+		<script src="libs/inflate.min.js"></script>
+		<script src="libs/FBXLoader.new.js"></script>
+		<script src="libs/OrbitControls.js"></script>
+		<script src="libs/Detector.js"></script>
+		<script src="libs/stats.min.js"></script>
+		<script src="libs/cannon.min.js"></script>
+		<script src="libs/CannonDebugRenderer.js"></script>
+		<script src="libs/cannon.min.js" crossorigin="anonymous"></script>
+		<script src="utils.js"></script>
+		<script src="game.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function(){
+				const game = new Game();
+				window.game = game;//For debugging only
+			});
+		</script>
+	</body>
+</html>
+
+
