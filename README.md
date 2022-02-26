@@ -5,4 +5,15 @@ Hi, nice to meet you. You've reached my personal website. If I know you, feel fr
 ## projects
 
 ### [car cleaner](https://mrjohnyhats.github.io/car-game/index.html)
+- 3D car physics simulation utilizing three.js and cannon.js
+- Hit blocks off the plane to earn points
+- The car has a rigid body and four wheels attached with a suspension system
+- made using cannon.js and three.js 
+- controls 
+  - W gas 
+  - S brake and reverse 
+  - A left 
+  - D right 
+  - E e-brake (lock rear wheels)
+
 
