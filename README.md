@@ -1,4 +1,4 @@
-# mrjohnyhats.github.io
+# [mrjohnyhats.github.io](https://mrjohnyhats.github.io)
 
 Hi, nice to meet you. You've reached the github repo of [my personal website](https://mrjohnyhats.github.io). If I know you, feel free to connect with me on [Linkedin](https://www.linkedin.com/in/jonathan-rozen-704573b2/). Otherwise, feel free to browse through my personal projects
 
