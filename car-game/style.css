@@ -74,17 +74,17 @@ body {
 	margin: auto;
 	width: 10vw;
 	height: 10vw;
-	font-size: 300%;
+	font-size: 2vmax;
 }
 
 #controls > table tbody {
 	position: relative;
-	top: 12vh;
+	top: 9vh;
 }
 
 #controls {
 	width: 50vw;
-	height: 50vh;
+	height: 60vh;
 	margin: auto;
 	margin-top: 20vh;
 	text-align: center;
@@ -102,13 +102,13 @@ body {
 #controls > #header {
 	font-size: 400%;
 	position: relative;
-	top: 5vh;
+	top: 3vh;
 }
 
 #controls > #subheader {
 	font-size: 200%;
 	position: relative;
-	top: 6vh;
+	top: 4vh;
 }
 
 
