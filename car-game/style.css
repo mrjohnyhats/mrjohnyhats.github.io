@@ -75,11 +75,8 @@ body {
 	width: 10vw;
 	height: 10vw;
 	font-size: 2vmax;
-}
-
-#controls > table tbody {
-	position: relative;
 	top: 9vh;
+	position: relative;
 }
 
 #controls {
