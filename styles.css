@@ -29,6 +29,13 @@ body {
 	background-color: #abff94;
 }
 
+#menu > button > img {
+	width: 30px;
+	display: inline;
+	float: right;
+	margin-right: 15px;
+}
+
 #menu > button:hover {
 	background-color: lightblue;
 }
