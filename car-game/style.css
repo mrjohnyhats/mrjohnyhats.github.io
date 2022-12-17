@@ -1,16 +1,12 @@
 body {
-	font-family: Monospace;
+	font-family: 'Bungee', cursive;
 	background-color: #000;
 	color: #fff;
 	margin: 0px;
 	overflow: hidden;
 }
-#points {
+#infoDisplay {
 	left: 35%;				
-}
-
-#speed {
-	left: 10%;
 }
 
 #debug {
@@ -80,10 +76,10 @@ body {
 }
 
 #controls {
-	width: 50vw;
-	height: 60vh;
+	width: 60vw;
+	height: 70vh;
 	margin: auto;
-	margin-top: 20vh;
+	margin-top: 14vh;
 	text-align: center;
 	background-color: rgba(0,0,0,0.5);
 }
@@ -96,16 +92,34 @@ body {
 	margin: auto;
 }
 
-#controls > #header {
+#controls > .header {
 	font-size: 400%;
-	position: relative;
-	top: 3vh;
+	padding-top: 1vh;
+	margin-top: 8vh;
 }
 
-#controls > #subheader {
+#controls > .subheader {
 	font-size: 200%;
-	position: relative;
-	top: 4vh;
 }
 
+#explanation.subheader {
+	margin-top: 12vh;
+}
 
+#banner {
+	font-family: 'Bungee', cursive;
+	font-size: 160px;
+	background: none;
+	width: 100%;
+	top: 20%;
+	left: -100%;
+	text-align: center;
+	position: absolute;
+	z-index: 1;
+	color: #5566ff;
+	transition: ease-in-out 5s;
+}
+
+#eBrakeInfo.info {
+	font-size: 0.4em !important;
+}

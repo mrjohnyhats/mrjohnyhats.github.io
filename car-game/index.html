@@ -2,25 +2,32 @@
 <html lang="en">
 	<head>
 		<title>car cleaner</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Kavivanar" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="./style.css">
 	</head>
 
 	<body>
-		<div id="points" class="menuitem">0 points</div>
-		<div id="speed" class="menuitem"></div>
+		<div class="menuitem" id="infoDisplay">
+			<span id="points">0 point</span> | <span id="speed"></span>
+		</div>
 		<div id="config" class="menuitem">settings</div>
+
+		<div id="banner">CAR CLEANER</div>
 
 		<div id="controlsContainer">
 			<div id="controls">
-				<div id="header">controls</div>
-				<div id="subheader">press any key to continue</div>
+				<div class="header">controls</div>
+				<div class="subheader">press any key to continue</div>
 				<table>
 					<tbody>
 						<tr>
 							<td></td>
 							<td class="key">W<div class="info">gas</div></td>
-							<td class="key">E<div class="info">E-brake<br>(lock rear wheels)</div></td>
+							<td class="key">E<div class="info" id="eBrakeInfo">E-brake<br>(lock rear wheels)</div></td>
 						</tr>
 						<tr>
 							<td class="key">A<div class="info">steer left</div></td>
@@ -29,6 +36,7 @@
 						</tr>
 					</tbody>
 				</table>
+				<div class="subheader" id="explanation">push the blocks off the platform</div>
 			</div>
 		</div>
 
@@ -63,6 +71,7 @@
 			document.addEventListener('DOMContentLoaded', function(){
 				document.addEventListener('keypress', function(){
 					document.getElementById('controlsContainer').style.visibility = 'hidden'
+					document.getElementById('banner').style.left = '100%'
 				})
 				const game = new Game();
 				window.game = game;//For debugging only
