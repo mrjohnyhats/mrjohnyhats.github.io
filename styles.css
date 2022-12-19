@@ -23,6 +23,13 @@ body {
 	color: lightblue;
 }
 
+#menu > h1 > span {
+	font-weight: 300;
+	font-size: 12px;
+	position: absolute;
+	display: block;
+}
+
 #menu > a {
 	width: 90%;
 	height: 10%;
