@@ -273,26 +273,6 @@ class Game{
 			var randColor = makeRandColor()
 			this.helper.addVisual(box, 'box'+i, new THREE.MeshLambertMaterial({color: randColor}))
 		}
-
-		// var ramp = makeRampShape()
-		// var rampBody = new CANNON.Body({mass: 100})
-		// rampBody.position = new CANNON.Vec3(0,20,0)
-		// rampBody.addShape(ramp)
-		// this.world.add(rampBody)
-
-
-		// this.world.add(this.ramp.body)
-		// this.ramp.body.position = new CANNON.Vec3(0,20,0)
-		// this.ramp.body.threemesh.material = new THREE.MeshPhongMaterial({color: makeRandColor()})
-		// this.scene.add(this.ramp.body.threemesh)
-		// this.obstacles.push(this.ramp.body)
-		
-		// this.rampCollider.position = new CANNON.Vec3(3,20,0)
-		// this.rampCollider.threemesh.material = new THREE.MeshPhongMaterial({color: makeRandColor()})
-		// this.rampCollider.threemesh.visible = false
-		// this.world.add(this.rampCollider)
-		// this.scene.add(this.rampCollider.threemesh)
-		// this.obstacles.push(this.rampCollider)
 		
 		if(this.debugPhysics){
 			this.debugRenderer = new THREE.CannonDebugRenderer(this.scene, world)
@@ -366,7 +346,6 @@ class Game{
         const brakeForce = 200;
         const reverseForce = -3000
 		 
-		// const force = maxForce * forward;
 		const steer = maxSteerVal * turn;
 
 
